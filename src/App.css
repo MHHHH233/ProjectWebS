@@ -1,0 +1,65 @@
+/* body{
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  background-color: #282c34;
+} */
+.carousel-indicators .btn {
+  width: 12px;
+  height: 12px;
+  background-color: #6c757d;
+  border: none;
+  margin: 0 4px;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.carousel-indicators .active {
+  background-color: #f48b8b;
+  transform: scale(1.4);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #dc3545;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  opacity: 1; /* Ensure icons are visible */
+  background-size: 60%;
+  background-position: center; 
+  z-index: 2;
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+  background-color: #c82333;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+  z-index: 2;
+}
+
+.carousel-item img {
+  border-radius: 20px; 
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  
+}
+.cursor{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px ;
+  border: 2px solid ;
+  border-radius: 50% ;
+  pointer-events: none;
+  z-index: 1000;
+  
+}
