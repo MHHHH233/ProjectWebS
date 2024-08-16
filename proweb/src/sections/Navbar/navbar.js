@@ -25,7 +25,7 @@ function NavbarA() {
             </NavDropdown>
           </Nav>
           <div className="navbar-buttons"> 
-            <Button  className="me-2 login " >Login</Button>
+            <Button variant="light" style={{backgroundColor:'white', fontWeight:'bold'}} >Login</Button>
             <Button variant="light" style={{backgroundColor:'white', fontWeight:'bold'}} >Sign up</Button>
           </div>
         </Navbar.Collapse>
